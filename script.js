@@ -46,6 +46,8 @@ function computerDecision() {
         alert("You lost!");
         stats.loses = stats.loses + 1;
     }
+    
+    confirm ("Current stats \n \n    Wins\: " + stats.wins + "\n    Loses\: " + stats.loses + "\n    Ties: " + stats.ties + "\n \n Would you like to play again?");
 
 
     
